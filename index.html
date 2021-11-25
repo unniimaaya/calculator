@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="../Dom/calcultor.css">
+ 
+</head>
+<body>
+    <h1>Calculator</h1>
+  
+
+ 
+    <div id="box">
+        <input  type="text" name="result" id="result">
+        <br> <br>
+        <button id="two" onclick=" clearBox()">c</button>
+        <button onclick="displayvalue('%')" >% </button  >
+        <button>/</button>
+        <br> <br>
+       <button onclick="displayvalue('7')" >7</button>
+       <button onclick="displayvalue('8')">8</button>
+       <button onclick="displayvalue('9')">9</button>
+       <button onclick="displayvalue('*')">*</button>
+       <br> 
+       <button onclick="displayvalue('4')">4</button>
+       <button onclick="displayvalue('5')" >5</button>
+       <button onclick="displayvalue('6')">6</button>
+       <button onclick="displayvalue('-')">-</button>
+       <br> 
+       <button onclick="displayvalue('1')">1</button>
+       <button onclick="displayvalue('2')">2</button>
+       <button onclick="displayvalue('3')">3</button>
+       <button onclick="displayvalue('+')">+</button>
+       <br> <br>
+       <button id="two" onclick="displayvalue('0')">0</button>
+       <button onclick="displayvalue('.')">.</button>
+       <button onclick="evaluateExpression()">=</button>
+
+       
+       <!-- <button onclick="backSpace()">e</button> -->
+
+</div>
+
+</body>
+<script src="../Dom/script.js"></script>
+
+</html>
+
+<!--
+      
+-->
