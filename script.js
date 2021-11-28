@@ -18,7 +18,7 @@
     //     res.value=cur_val.slice(0,1)
     // }
 
-    var displayvalue=(num)=>result.value+=num
+    var displayValue=(num)=>result.value+=num
 
     var clearBox=()=>result.value=""
 
